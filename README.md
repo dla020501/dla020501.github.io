@@ -24,7 +24,7 @@ What A THeme 테마에는 HOME, ABOUT, CONTACT, BLOG, MORE 안의 Projects, Test
 이 중 메인 화면을 표시하는 HOME, 블로그 주인에 대한 설명이 있는 ABOUT, POST들을 모아놓은 BLOG 총 3개의 메뉴 버튼을 사용.
 1. _includes 폴더의 navbar.html 파일을 텍스트 편집기로 다음과 같이 수정.
 2. `<a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#contact">CONTACT</a>`를 지워서 CONTACT 버튼을 없앰.
-3. {% include dropdown.html %}를 지워서 MORE의 Projects, Test Page를 담당하는 dropdown.html을 포함시키지 않도록 함. 
+3. `{% include dropdown.html %}` 를 지워서 MORE의 Projects, Test Page를 담당하는 dropdown.html을 포함시키지 않도록 함. 
 4. _includes 폴더의 contact.html, dropdown.html, project-card.html 파일을 삭제함.
 5. _layouts 폴더의 default.html에서 `{% include contact.html %}` 를 지워서 CONTACT 내용이 뜨지 않도록 함.
 6. _layouts 폴더의 project.html 파일과 메인 폴더의 project.md, test-page.md 파일을 삭제함.
