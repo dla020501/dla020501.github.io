@@ -1,53 +1,21 @@
-# WhatATheme
-**WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio.
+# 프로젝트 설계 과정
+## 블로그용 Repo 만들기
+1. dla020501.github.io 이름의 repository를 public으로 생성.
+2. git clone을 사용하여 /home/git/bloggame/blog 폴더와 연동시킴.
 
-#### You can checkout the [**Demo Here**](https://thedevslot.github.io/WhatATheme/) :boom:
+## Jekyll 환경 구성
+1. Jekyll 공식 사이트 https://jekyllrb-ko.github.io/ 을 통해 Jekyll과 bundler젬을 설치.
+2. /home/git/bloggame/blog 폴더로 이동.
+3. 현재 폴더에 새 Jekyll 사이트를 생성.
+`jekyll new . --force` 
+4. 사이트를 설계하고 로컬 서버에 적용하기 위해서는 다음의 명령어를 실행하면 됨.
+`bundle exec jekyll serve`
+5. 사이트를 설계하고 git으로 push하면 dla020501.github.io 링크를 통해 설계한 사이트 확인 가능.
 
-![WhatATheme](assets/images/meta.jpg)
+## 테마 적용하기
+http://jekyllthemes.org/ 사이트의 What A THeme 테마 적용.
+1. https://github.com/thedevslot/WhatATheme 에서 git clone을 사용하여 /home/git/bloggame/WhatATheme 경로로 받아옴.
+2. 받아온 테마를 blog 폴더에 덮어쓰기를 하되, 의존성을 감안하여 _posts 폴더를 제외함.
+3. 테마 파일들을 git으로 push함으로써 테마 적용
 
-# Features :sparkles:
-* Free and Easy setup
-* No Coding Required
-* Compatible with [Github Pages](https://pages.github.com/)
-* Responsive and Blogging Ready
-* HTML Compressor using [Jekyll Compress HTML](https://jch.penibelst.de/)
-* Minified CSS using SaSS
-* CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
-* Supports Latest [Jekyll 4.x](https://jekyllrb.com/) and [Bundler](https://bundler.io/)
-* Stylesheet built using SaSS
-* Comments using Disqus
-* Analytics using Google Analytics
-* Instant Search using [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search/)
-
-# Installation :books:
-### System Requirements
-* [Ruby](https://www.ruby-lang.org/en/)
-* [Jekyll](https://jekyllrb.com/)
-> You can read **What is Jekyll** [**here**](https://thedevslot.github.io/WhatATheme/blog/what-is-jekyll-how-to-use-it)
-### Up and Running
-* Fork the [Repository](https://github.com/thedevslot/WhatATheme/)
-* Clone or download the repository into directory of your choice: `git clone https://github.com/thedevslot/WhatATheme.git`
-* Inside the directory run `bundle install`
-* Host WhatATheme locally by running `bundle exec jekyll s`
-
-> You can read **How to Install and use WhatATheme?** [**here**](https://thedevslot.github.io/WhatATheme/blog/how-to-install-whatatheme)
-
-[<img src="https://i.imgur.com/TVI946Z.png" width="250" />](https://youtu.be/VfPa2c9kwhQ)
-
----
-
-### Content Credits :green_heart:
-* [Hero Image](https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) used as a background image in the very first section of Homepage.
-* [Author Image](https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png) used in the Author Section.
-* [Font Awesome](https://fontawesome.com/)
-* [Poppins Font](https://fonts.google.com/specimen/Poppins)
-* [Memphis Pattern](https://www.freepik.com/free-vector/memphis-pattern-background_4034913.htm#page=1&query=memphis%20pattern&position=23) used for some Social Media Images and the Favicon.
-
----
-
-### Credits :bulb:
-* [Sneha Omer](http://sassyecoder.github.io/)
-* [Harsh Trivedi](http://harsh98trivedi.github.io/)
-
-### License
-The contents of this repository are licensed under the [**GNU General Public License v2.0**](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE)
+## 테마 수정하기
