@@ -2,6 +2,7 @@
 layout: post
 title:  "Markdown"
 tag: Information, Markdown
+comments: true
 ---
 # 마크다운(Markdown)
 ## 1. 마크다운이란?
