@@ -28,7 +28,7 @@ What A THeme 테마에는 HOME, ABOUT, CONTACT, BLOG, MORE 안의 Projects, Test
 4. _includes 폴더의 contact.html, dropdown.html, project-card.html 파일을 삭제함.
 5. _layouts 폴더의 default.html에서 `{% include contact.html %}` 를 지워서 CONTACT 내용이 뜨지 않도록 함.
 6. _layouts 폴더의 project.html 파일과 메인 폴더의 project.md, test-page.md 파일을 삭제함.
-7. _data 폴더를 삭제함. 이 폴더에는 project.yml이 들어있는데, 이 파일은 필요없기 때문임.
+7. _data 폴더를 삭제함. 이 폴더에는 projects.yml이 들어있는데, 이 파일은 필요없기 때문임.
 
 ### ABOUT 수정
 기존의 테마에서는 ABOUT에 자신을 설명하는 글과 더불어 CONTACT 버튼과 BLOG 버튼이 존재함.
