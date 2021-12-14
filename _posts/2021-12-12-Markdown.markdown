@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Markdown"
+tag: Information, Markdown
+---
 # 마크다운(Markdown)
 ## 1. 마크다운이란?
 마크다운(Markdown)은 마크업 언어의 일종으로, 존 그루버(John Gruber)와 아론 스워츠(Aaron Swartz)가 만들었다. 쉽게 쓰고 읽을 수 있으며 HTML로 변환이 가능하다. 특수기호와 문자를 이용한 매우 간단한 구조의 문법을 사용하여 웹에서도 보다 빠르게 컨텐츠를 작성하고 보다 직관적으로 인식할 수 있다.
