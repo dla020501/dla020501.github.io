@@ -6,7 +6,7 @@ title: Jekyll-admin
 
 # Jekyll-admin
 ## Jekyll-admin이 무엇인가?
-콘텐츠를 작성하고 Jekyll 사이트를 관리할 수 있는 기존 CMS 스타일 그래픽 인터페이스를 사용자에게 제공하는 Jekyll 플러그인이다.
+콘텐츠를 작성하고, Jekyll 사이트를 관리할 수 있는 기존 CMS 스타일 그래픽 인터페이스를 사용자에게 제공하는 Jekyll 플러그인이다.
 
 ## 설치 방법
 1. 터미널 내에서 Jekyll 환경 구성을 완료한 폴더로 이동한다. 여기서는 /home/git/bloggame/blog 폴더를 기준으로 설명함.
